@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turismo no Vale do Ribeira</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav id="nav" class="navbar navbar-dark fixed">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="imgs/image.png" id="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header bg-dark">
+          <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">Sobre</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body bg-dark">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#link1">Introdução</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#link2">História</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" aria-current="page" href="#link3">Turismo</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" aria-current="page" href="#link4">Pontos turísticos no Vale do Ribeira</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imgs/saibadela_.png" class=" w-100 h-100 img-fluid" id="imgs1">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Cachoeira do Saibadela</h1>
+          <h4>Sete Barras/SP</h4>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imgs/ilha_do_cardoso.png" class="w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Ilha do Cardoso</h1>
+          <h5>Cananéia/SP</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imgs/caverna_diabo.png" class="w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Caverna do Diabo</h1>
+          <h5>Eldorado/SP</h5>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <h1 id="titulo" class="text-center text-white">Turismo no Vale do Ribeira</h1>
+
+  <br><br>
+
+  <section>
+
+  <p id="link1" class="text-center text-white">Importância do Vale</p>
+  <br>
+
+  <div id="texto1" class="text-white">
+    <img src="imgs/img_introducao.webp" id="img_introducao">
+    <p>O Vale do Ribeira, localizado no sul de São Paulo e leste do Paraná, abrange 2,8 milhões de hectares e possui uma
+    população de 481.224 habitantes em 31 municípios . Reconhecido pela UNESCO como Patrimônio Natural da Humanidade, a
+    região preserva mais de 2,1 milhões de hectares de florestas, representando 21% dos remanescentes de Mata Atlântica
+    no Brasil .
+    O Vale do Ribeira possui uma diversidade cultural impressionante, com a presença de comunidades indígenas,
+    quilombolas e caiçaras . Historicamente, a região passou por diversos ciclos econômicos, como a mineração de ouro no
+    século XVII, o cultivo de arroz, café e chá, sendo atualmente a banana o principal produto agrícola .
+    Além da agricultura, o ecoturismo é um grande potencial da região, com atrativos como a Caverna do Diabo e o Parque
+    Estadual Turístico do Alto Ribeira (PETAR), oferecendo atividades de aventura como escalada, rapel e canoagem . As
+    comunidades tradicionais buscam preservar suas terras e direitos, engajando-se em iniciativas de turismo sustentável
+    e projetos de desenvolvimento comunitário .
+    Apesar dos contrastes, o Vale do Ribeira é essencial para a conservação ambiental e cultural do Brasil e do mundo,
+    exemplificando a coexistência entre desenvolvimento humano e preservação da natureza.
+  </p>
+  </div>
+
+  <br><br>
+
+  <p id="link2" class="text-center text-white"> História do Vale do Ribeira</p>
+
+  <div id="texto2" class="text-white">
+    <img src="imgs/canhao_cananeia.JPG" id="img_historia">
+    Por volta do ano 1000, povos do tronco tupi invadiram a região do Vale do Ribeira, expulsando os tapuias para o
+    interior. No século XVI, a área foi habitada pelos carijós e recebeu os povoados de Cananéia e Iguape, fundados por
+    espanhóis e portugueses.
+    A descoberta de ouro na Serra de Paranapiacaba no século XVII atraiu garimpeiros, estabelecendo cidades como Apiaí.
+    Com o esgotamento do ouro, a agricultura de subsistência ganhou importância.
+    No século XIX, Iguape tornou-se o maior produtor de arroz do país, integrando-se à economia escravista. Com a
+    imigração japonesa, o cultivo de banana e chá substituiu o arroz, inserindo lentamente o Vale do Ribeira na economia
+    paulista.
+    A pesca comercial em Cananéia manteve-se importante. A construção da BR-116 na década de 1960 valorizou as terras e
+    mudou a ocupação da região. Apesar de sua baixa densidade populacional, o Vale do Ribeira preserva muito de seu
+    ambiente natural e histórico.
+    A região é marcada por unidades de conservação ambiental e possui a maior área contínua de Mata Atlântica
+    remanescente. A agricultura de banana e tangerina, bem como a pecuária bovina e bubalina, são destaques econômicos.
+  </div>
+  <br>
+  <p id="link3" class="text-center text-white">Turismo no Vale</p>
+
+  <div id="texto3" class="text-white">
+    <img src="imgs/carlos_botelho.jpg" id="img_turismo">
+    <p>O Vale do Ribeira, localizado no sul de São Paulo e leste do Paraná, é uma região de destaque para o ecoturismo no
+    Brasil. Sua vasta área de Mata Atlântica preservada é um dos principais atrativos, com o Parque Estadual Turístico
+    do Alto Ribeira oferecendo mais de 350 cavernas e trilhas para exploração .
+    A região é rica em cultura e história, com cidades como Iguape e Cananéia preservando construções coloniais que
+    remontam aos séculos XVI e XVII . O turismo de aventura também é popular na área, com atividades como rafting,
+    rapel, escalada e canoagem aproveitando os recursos naturais .
+    Em reconhecimento a sua importância ambiental, o Vale foi declarado Patrimônio Natural da Humanidade pela
+    UNESCO . O turismo sustentável é incentivado na região, buscando preservar os recursos naturais e valorizar as
+    comunidades tradicionais, como quilombolas, caiçaras e indígenas .
+    Apesar de sua baixa densidade populacional, o Vale do Ribeira possui uma diversidade cultural e ecológica única.
+  </p>
+  </div>
+  <br>
+
+  <p id="link4" class="text-white text-center">Pontos turísticos no Vale do Ribeira</p>
+  <br><br>
+  <table>
+    <tr>
+      <td><img src="imgs/casa-de-pedra.jpg" id="img01">
+        <p class="text-white" id="p1">Caverna da Casa da Pedra</p>
+      </td>
+      <td><img src="imgs/caverna_agua_suja.jpg" id="img02">
+        <p class="text-white" id="p1">Caverna da Água Suja</p>
+      </td>
+      <td><img src="imgs/praia-da-jureia.jpg" id="img03">
+        <p class="text-white" id="p1">Caverna da Casa da Pedra</p>
+      </td>
+      <td><img src="imgs/prais_pedrinhas.jpg" id="img04">
+        <p class="text-white" id="p1">Caverna da Casa da Pedra</p>
+      </td>
+  </table>
+
+</section>
+
+  <div class="container">
+    <footer class="py-3 my-4 w-100 text-center">
+      <p class="text-center text-white" id="footer">&copy; 2024 Company, Inc</p>
+      <a href="https://www.turismo.sp.gov.br/viaje-pela-exuberante-natureza-do-vale-do-ribeira" class="text-white"> Saiba mais</a>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
